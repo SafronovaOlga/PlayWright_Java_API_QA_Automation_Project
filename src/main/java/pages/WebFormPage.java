@@ -1,1 +1,1 @@
-package pages;public class WebFormPage {}
+package pages;import com.microsoft.playwright.Page;public class WebFormPage {    public WebFormPage( Page page ){        }}
