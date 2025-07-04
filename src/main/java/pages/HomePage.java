@@ -1,0 +1,1 @@
+package pages;import com.microsoft.playwright.Page;public class HomePage {    Page page;        public HomePage(Page page) {        this.page = page;    }        public String getHeaderText() {        return page.textContent("h1");    }    }
