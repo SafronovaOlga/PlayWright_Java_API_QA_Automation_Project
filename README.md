@@ -1,16 +1,7 @@
 # QA-Automation-Playwright-Java-todomvc
 Automated UI &amp; API testing with Java + Playwright. Demo app. Clean code, Page Object Model, TestNG.
 
-## How to Run Tests
-```bash
-mvn clean test
-```
-
-## How to View Allure Report
-```bash
-allure serve allure-results
-
-## 🏗️ Project Structure
+## 🏗 Project Structure
 
 ```
 project-root/
@@ -33,4 +24,14 @@ project-root/
 │               └── TestData.java
 └── allure-results/
 ````
+
+## How to Run Tests
+```bash
+mvn clean test
+```
+
+## How to View Allure Report
+```bash
+allure serve allure-results
+
 
