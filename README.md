@@ -10,7 +10,10 @@ mvn clean test
 ```bash
 allure serve allure-results
 
-``project-root/
+## 🏗️ Project Structure
+
+```
+project-root/
 ├── pom.xml
 ├── testng.xml
 ├── .gitignore
@@ -23,10 +26,11 @@ allure serve allure-results
 │   └── test/
 │       └── java/
 │           ├── base/
-│           │   └── BaseTest.java
+│           │   └── BaseTest.java          # Playwright setup/teardown
 │           ├── tests/
 │           │   └── HomePageTests.java
 │           └── utils/
 │               └── TestData.java
 └── allure-results/
-``
+````
+
