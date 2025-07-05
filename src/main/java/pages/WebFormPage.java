@@ -1,1 +1,1 @@
-package pages;import com.microsoft.playwright.Page;public class WebFormPage {    public WebFormPage( Page page ){        }}
+package pages;import com.microsoft.playwright.Page;public class WebFormPage {    private static final String WEB_FORM_URL = "web-form.html";        public WebFormPage( Page page ){        }}
