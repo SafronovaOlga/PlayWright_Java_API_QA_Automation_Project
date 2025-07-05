@@ -5,36 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a04dcc1-b465-4fc0-a3b9-d99d908baf65" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LocatorsElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LocatorsElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/WebFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WebFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uitests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitests/HomePageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SafronovaOlga"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SafronovaOlga&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SafronovaOlga/PlayWright_Java_API_QA_Automation_Project.git",
-    "accountId": "7f14f565-121e-4ac0-9bf6-44f0ee478b2a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SafronovaOlga/PlayWright_Java_API_QA_Automation_Project.git&quot;,
+    &quot;accountId&quot;: &quot;7f14f565-121e-4ac0-9bf6-44f0ee478b2a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2zMWzQhAD6TpelFsQjyGmgzVYB9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,17 +54,37 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "TestNG.HomePageTest.testPageTitle.executor": "Run",
+    "TestNG.HomePageTest.verifyHomePageTitle.executor": "Run",
+    "TestNG.HomePageTest.verifyHomePageTitle1.executor": "Run",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "os/creatednewtests/01"
+    "git-widget-placeholder": "os/creatednewtests/04"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="base" />
       <recent name="uitests" />
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.HomePageTest.verifyHomePageTitle">
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PlayWright_Java_API_QA_Automation_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uitests" />
+      <option name="MAIN_CLASS_NAME" value="uitests.HomePageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomePageTest.testPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PlayWright_Java_API_QA_Automation_Project" />
       <extension name="coverage">
@@ -72,9 +103,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomePageTest.verifyHomePageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PlayWright_Java_API_QA_Automation_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uitests" />
+      <option name="MAIN_CLASS_NAME" value="uitests.HomePageTest" />
+      <option name="METHOD_NAME" value="verifyHomePageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.verifyHomePageTitle1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PlayWright_Java_API_QA_Automation_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uitests" />
+      <option name="MAIN_CLASS_NAME" value="uitests.HomePageTest" />
+      <option name="METHOD_NAME" value="verifyHomePageTitle1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomePageTest.verifyHomePageTitle" />
         <item itemvalue="TestNG.HomePageTest.testPageTitle" />
+        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.HomePageTest.verifyHomePageTitle1" />
       </list>
     </recent_temporary>
   </component>
