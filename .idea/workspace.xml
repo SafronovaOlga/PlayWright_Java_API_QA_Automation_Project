@@ -10,17 +10,46 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2zMWzQhAD6TpelFsQjyGmgzVYB9" />
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "dart.analysis.tool.window.visible": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="uitests" />
       <recent name="pages" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HomePageTest.testPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PlayWright_Java_API_QA_Automation_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uitests" />
+      <option name="MAIN_CLASS_NAME" value="uitests.HomePageTest" />
+      <option name="METHOD_NAME" value="testPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HomePageTest.testPageTitle" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <servers />
