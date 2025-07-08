@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9a04dcc1-b465-4fc0-a3b9-d99d908baf65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LocatorsElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LocatorsElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/WebFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WebFormPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/uitests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitests/HomePageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,11 +49,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.HomePageTest.testNavigateToWebForm.executor": "Run",
     "TestNG.HomePageTest.testPageTitle.executor": "Run",
+    "TestNG.HomePageTest.verifyChapterSection.executor": "Run",
+    "TestNG.HomePageTest.verifyGettingStartedSection.executor": "Run",
     "TestNG.HomePageTest.verifyHomePageTitle.executor": "Run",
     "TestNG.HomePageTest.verifyHomePageTitle1.executor": "Run",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "os/creatednewtests/04"
+    "git-widget-placeholder": "os/creatednewpages/01",
+    "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -67,8 +68,8 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomePageTest.verifyHomePageTitle">
-    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HomePageTest.testCheckboxClick">
+    <configuration name="HomePageTest.testCheckboxClick" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PlayWright_Java_API_QA_Automation_Project" />
       <extension name="coverage">
         <pattern>
@@ -78,14 +79,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="uitests" />
       <option name="MAIN_CLASS_NAME" value="uitests.HomePageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="testCheckboxClick" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.testPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.testNavigateToWebForm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PlayWright_Java_API_QA_Automation_Project" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +97,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="uitests" />
       <option name="MAIN_CLASS_NAME" value="uitests.HomePageTest" />
-      <option name="METHOD_NAME" value="testPageTitle" />
+      <option name="METHOD_NAME" value="testNavigateToWebForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.verifyChapterSection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PlayWright_Java_API_QA_Automation_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uitests" />
+      <option name="MAIN_CLASS_NAME" value="uitests.HomePageTest" />
+      <option name="METHOD_NAME" value="verifyChapterSection" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.verifyGettingStartedSection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PlayWright_Java_API_QA_Automation_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uitests" />
+      <option name="MAIN_CLASS_NAME" value="uitests.HomePageTest" />
+      <option name="METHOD_NAME" value="verifyGettingStartedSection" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -121,30 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.verifyHomePageTitle1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PlayWright_Java_API_QA_Automation_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uitests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="uitests" />
-      <option name="MAIN_CLASS_NAME" value="uitests.HomePageTest" />
-      <option name="METHOD_NAME" value="verifyHomePageTitle1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomePageTest.testCheckboxClick" />
+        <item itemvalue="TestNG.HomePageTest.testNavigateToWebForm" />
+        <item itemvalue="TestNG.HomePageTest.verifyChapterSection" />
+        <item itemvalue="TestNG.HomePageTest.verifyGettingStartedSection" />
         <item itemvalue="TestNG.HomePageTest.verifyHomePageTitle" />
-        <item itemvalue="TestNG.HomePageTest.testPageTitle" />
-        <item itemvalue="TestNG.HomePageTest" />
-        <item itemvalue="TestNG.HomePageTest.verifyHomePageTitle1" />
       </list>
     </recent_temporary>
   </component>
